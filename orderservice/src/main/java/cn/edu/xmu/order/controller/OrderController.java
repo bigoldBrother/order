@@ -134,7 +134,7 @@ public class OrderController {
             return Common.getNullRetObj(new ReturnObject<>(retObject.getCode(), retObject.getErrmsg()), httpServletResponse);
         }
     }
-    /*
+    /**
      * 买家查询订单完整信息
      * @author 史韬韬
      * created in 2020/12/2
@@ -156,7 +156,7 @@ public class OrderController {
 
     }
 
-    /*
+    /**
      * 买家修改本人名下订单
      * @author 史韬韬
      * created in 2020/12/3
@@ -174,7 +174,7 @@ public class OrderController {
     public Object changeOrder(@PathVariable Long id, @RequestBody AdressVo adressVo){
         return Common.decorateReturnObject(orderService.changeOrder(id,adressVo));
     }
-    /*
+    /**
      * 买家取消、逻辑删除本人名下订单
      * @author 史韬韬
      * created in 2020/12/3

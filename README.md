@@ -26,9 +26,12 @@ The following guides illustrate how to use some features concretely:
 需要集成其他接口：1-3、1-10
 # freight
 已完成：2-3
+
 需要集成其他接口：
 # payment
 已完成：null
+
+需要集成其他接口：
 #core
 工具类新增----字符串转LoaclDateTime(TimeFormat类)
 

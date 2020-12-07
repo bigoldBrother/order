@@ -64,7 +64,10 @@ public class FreightControllerTest {
             return ret;
         }
 
-        @Test
+    /**
+     * 店家查询运费模板
+     */
+    @Test
         public void getFreightModelsInShop(){
 
 
